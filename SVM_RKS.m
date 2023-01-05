@@ -39,8 +39,8 @@ cvx_begin
         ep >= 0;
 cvx_end
 %hyperplane parameters
-w 
-g
+disp(w)
+disp(g)
 %Testing a datapoint
 x=[3.5;2.5];
 y=r*x;
